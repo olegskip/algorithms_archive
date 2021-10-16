@@ -16,7 +16,7 @@ void countingSort(std::vector<unsigned int> &vec)
 		return;
 
 	std::vector<size_t> counter;
-    // We should to know tha max elemen in order to know the last element in vec
+	// We should to know tha max element in order to know the last element in vec
 	unsigned int maxElement = vec[0];
 	counter.resize(vec.size());
 	for(int item: vec) {
